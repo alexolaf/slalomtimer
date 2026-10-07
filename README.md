@@ -65,6 +65,8 @@ The app supports **over 96 models** — all modern round and semi-octagon screen
 ## Menu Structure
 
 Upon launching, the user sees a main menu with **7 items**. Each section is detailed below.
+![mainmenu1](screenshots/mainmenu1.png)
+![mainmenu2](screenshots/mainmenu2.png)
 
 ---
 
@@ -76,6 +78,8 @@ The **Timer** is both a standard countdown timer and a full-featured **start pro
 - **Jybe Hints** — vibrates at the right moments to guide you through maneuvers and deliver you to the line exactly on time.
 
 Together, these features turn the Timer into a complete virtual coach for the start.
+![fenix 8 timer](screenshots/round454x454/timer.png)
+Basic timer view on Fenix 8 Pro
 
 **Controls:**
 
@@ -143,7 +147,7 @@ This provides a reliable countdown sequence:
 
 **Round 454 × 454**
 
-![Timer 454x454](screenshots/timer_454x454.png)
+![Timer 454x454](screenshots/round454x454/timer.png)
 
 *Width: 220px*
 
