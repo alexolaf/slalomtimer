@@ -79,7 +79,16 @@ The **Timer** is both a standard countdown timer and a full-featured **start pro
 
 Together, these features turn the Timer into a complete virtual coach for the start.
 ![fenix 8 timer](screenshots/round454x454/timer.png)
+
 Basic timer view on Fenix 8 Pro
+Here on screen: 
+ - **Beggest numbers** are seconds 
+ - 07 seven minutes to start
+ - 00:00 current session duration
+ - 14:29 current time
+ - 7 in the righ bottom indicates current timer program
+ - circle indicates if timer start automatically after 00:00 (looped)
+ - Pins: 1 means only one marker of start line is set. Prediction require 2 markers.
 
 **Controls:**
 
@@ -88,6 +97,7 @@ Basic timer view on Fenix 8 Pro
 | **Left Middle** | Start / Pause timer |
 | **Left Bottom** | Reset to default setup minutes |
 | **Right Upper** | Sync seconds to zero (round to nearest minute) |
+| **Right Bottom** | Return to main menu |
 
 **Audio / Vibration:**
 - Beeper and vibration alerts inspired by **Optimum Time Series** yachting watches.
@@ -107,6 +117,10 @@ Basic timer view on Fenix 8 Pro
 #### Start Line Prediction
 
 The start line prediction is one of the app's most powerful features for racing. It is controlled in the **Setup** menu via the **Timer predict interval** parameter — the number of seconds before the start at which the prediction should be enabled (**0 to 90**).
+
+![Timer 260x260 7 segment](screenshots/round260x260/timer7seg.png)
+
+This is artificially made situation, just to get you an idea on how it looks on the start.
 
 **How it works:**
 
@@ -149,59 +163,29 @@ This provides a reliable countdown sequence:
 
 ![Timer 454x454](screenshots/round454x454/timer.png)
 
-*Width: 220px*
-
 **Round 416 × 416**
 
-![Timer 416x416](screenshots/timer_416x416.png)
-
-*Width: 220px*
+![Timer 416x416](screenshots/round416x416/timer.png)
 
 **Round 280 × 280**
 
 ![Timer 280x280](screenshots/timer_280x280.png)
 
-*Width: 220px*
-
 **Round 260 × 260 — Vector Font (e.g., Forerunner 955)**
 
-![Timer 260x260 Vector](screenshots/timer_260x260_vector.png)
-
-*Width: 220px*
+![Timer 260x260 Vector](screenshots/round260x260/timervector.png)
 
 **Round 260 × 260 — Non-Vector Font / 7-Segment (e.g., Fenix 6)**
 
-![Timer 260x260 7-Segment](screenshots/timer_260x260_7seg.png)
-
-*Width: 220px*
+![Timer 260x260 7 segment](screenshots/round260x260/timer7seg.png)
 
 **Round 240 × 240**
 
 ![Timer 240x240](screenshots/timer_240x240.png)
 
-*Width: 220px*
-
 **Semi-octagon 176 × 176**
 
-![Timer 176x176](screenshots/timer_176x176.png)
-
-*Width: 220px*
-
-#### Start Line Prediction & Jybe Hints Screenshots
-
-<!-- Add your Start Line Prediction and Jybe/Start Zone hint screenshots here -->
-
-![Start Line Prediction](screenshots/start_line_prediction.png)
-
-*Width: 220px*
-
-![Jybe Hint](screenshots/jybe_hint.png)
-
-*Width: 220px*
-
-![Start Zone Hint](screenshots/start_zone_hint.png)
-
-*Width: 220px*
+![Timer 176x176](screenshots/semioctagon176x176/timer.png)
 
 ---
 
@@ -210,14 +194,15 @@ This provides a reliable countdown sequence:
 ## 2. Practice (Tracker View)
 
 The Practice view is the core training screen, displaying real-time metrics and automatic tack logging. Its main purpose is to let you **analyze speeds and rig/gear settings right on the water** — without needing to go ashore for a phone or computer.
+![Practice](screenshots/round416x416/practice.png)
 
 ### Displays
 
-- Current speed
+- Current speed top left
 - Session distance travelled
 - Current heart rate
 - Current local time
-- Maximum **2-second average speed** for the previous tack
+- Maximum **2-second average speed** for the previous tack on the top right
 - **Direction arrow to Home** (if a Home point has been set in the Markers menu)
 
 ### Tack Detection & Navigation
@@ -253,45 +238,26 @@ Pressing **Right Bottom (Back)** always closes the summary and returns to the cu
 
 **Round 454 × 454**
 
-![Practice 454x454](screenshots/practice_454x454.png)
 
-*Width: 220px*
 
 **Round 416 × 416**
 
-![Practice 416x416](screenshots/practice_416x416.png)
-
-*Width: 220px*
+![Practice](screenshots/round416x416/practice.png)
 
 **Round 280 × 280**
 
-![Practice 280x280](screenshots/practice_280x280.png)
-
-*Width: 220px*
 
 **Round 260 × 260 — Vector Font (e.g., Forerunner 955)**
 
-![Practice 260x260 Vector](screenshots/practice_260x260_vector.png)
-
-*Width: 220px*
+![Practice 260x260 Vector](screenshots/round260x260/practice.png)
 
 **Round 260 × 260 — Non-Vector Font / 7-Segment (e.g., Fenix 6)**
 
-![Practice 260x260 7-Segment](screenshots/practice_260x260_7seg.png)
-
-*Width: 220px*
-
 **Round 240 × 240**
-
-![Practice 240x240](screenshots/practice_240x240.png)
-
-*Width: 220px*
 
 **Semi-octagon 176 × 176**
 
-![Practice 176x176](screenshots/practice_176x176.png)
-
-*Width: 220px*
+![Practice 176x176](screenshots/semioctagon176x176/practice.png)
 
 ---
 
@@ -300,6 +266,7 @@ Pressing **Right Bottom (Back)** always closes the summary and returns to the cu
 ## 3. Markers Menu
 
 The Markers menu replaces the older "Pins" menu (reworked in v5.4) and uses standard sailing/regatta terminology. It features a **smart GPS averaging algorithm** to defeat GPS drift (~3-meter dispersion).
+![Markers](screenshots/markers1.png)
 
 ### Menu Structure
 
@@ -324,30 +291,10 @@ The Markers menu replaces the older "Pins" menu (reworked in v5.4) and uses stan
 ### List & Reset
 
 - **List** reviews stored marker data.
+![Markers list](screenshots/markerslist.png)
+
 
 > **Note:** Pin locations are saved directly to the `.fit` file for further post-session analysis.
-
-### Markers Menu Screenshots
-
-<!-- Add your Markers menu screenshots here -->
-
-![Markers Menu](screenshots/markers_menu.png)
-
-*Width: 220px*
-
-![Markers List](screenshots/markers_list.png)
-
-*Width: 220px*
-
-![Set Boat](screenshots/markers_set_boat.png)
-
-*Width: 220px*
-
-![Set Pin](screenshots/markers_set_pin.png)
-
-*Width: 220px*
-
----
 
 ---
 
@@ -372,27 +319,13 @@ The Setup menu allows full customization of units, display, timer behavior, and 
 | **Start zone** | Distance (in seconds) from the start line to sail on a straight course |
 | **Save doppler speed** | On / Off — save raw Doppler speed data to the `.fit` file for post-session analysis |
 
-### Setup Menu Screenshots
-
-<!-- Add your Setup menu screenshots here -->
-
-![Setup Menu](screenshots/setup_menu.png)
-
-*Width: 220px*
-
-![Setup Units](screenshots/setup_units.png)
-
-*Width: 220px*
-
-![Setup Timer](screenshots/setup_timer.png)
-
-*Width: 220px*
-
 ---
 
 ## 5. GPS Status
 
 Displays current GPS quality and accuracy along with additional telemetry.
+![GPSStatus](screenshots/gpsstatus.png)
+
 
 ### Displays
 
@@ -403,56 +336,30 @@ Displays current GPS quality and accuracy along with additional telemetry.
 - Altitude
 - **Distance to Home** (if a Home point has been set in the Markers menu)
 
-### Compass Fallback (v3.4)
+### Compass Fallback
 
 - Uses the **magnetic compass** if stationary or if GPS signal is temporarily lost.
-- Heading is normalized to the **0–359 range** (previously 1–360).
-
-### GPS Status Screenshots
-
-<!-- Add your GPS Status screenshots here -->
-
-![GPS Status](screenshots/gps_status.png)
-
-*Width: 220px*
-
-![GPS Status Compass](screenshots/gps_status_compass.png)
-
-*Width: 220px*
+- Heading is normalized to the **0–359 range**.
 
 ---
 
 ## 6. Gear Menu
 
 The Gear menu lets you record equipment used and environmental conditions for each session.
+![Gear](screenshots/gear.png)
 
 ### Equipment DB
 
 - Select **Board**, **Sail**, **Fin**, **Wing Board**, **Wing Foil**, or **Wind Foil**.
 - Stored directly in the **FIT activity summary** for review.
 - Database was generated using AI and is certainly incomplete — please report missing records.
+![Gear](screenshots/gearbrand.png)
 
 ### Environment & Impressions
 
 - **Windspeed** logging
 - **Wind Match** — how well the conditions matched your setup
 - **Ride Comfort** — subjective comfort rating
-
-### Gear Menu Screenshots
-
-<!-- Add your Gear menu screenshots here -->
-
-![Gear Menu](screenshots/gear_menu.png)
-
-*Width: 220px*
-
-![Gear Board Selection](screenshots/gear_board.png)
-
-*Width: 220px*
-
-![Gear Impressions](screenshots/gear_impressions.png)
-
-*Width: 220px*
 
 ---
 
@@ -469,23 +376,13 @@ Triggers a safe exit sequence.
 - Pressing **Right Bottom (Back)** on this screen acts as an **Undo** command — immediately returning to the active session **without data loss**.
 - This is useful if you fall off unintentionally and want to continue your training.
 
-### Quit Screen Screenshots
-
-<!-- Add your Quit screen screenshots here -->
-
-![Quit Dialog](screenshots/quit_dialog.png)
-
-*Width: 220px*
-
-![Quit Undo](screenshots/quit_undo.png)
-
-*Width: 220px*
-
 ---
 
 ## Session Summary
 
 After the session ends, a summary is shown. The same summary can be accessed during the activity via the **Right Upper button** in the Practice view.
+![Summary](screenshots/summary.png)
+
 
 ### Metrics Included
 
@@ -496,205 +393,6 @@ After the session ends, a summary is shown. The same summary can be accessed dur
 - Duration
 - Max heart beat
 - Calories burned
-
-### Session Summary Screenshots
-
-<!-- Add your Session Summary screenshots here -->
-
-![Session Summary](screenshots/session_summary.png)
-
-*Width: 220px*
-
-![Session Summary Exit](screenshots/session_summary_exit.png)
-
-*Width: 220px*
-
----
-
-## Screenshots by Resolution
-
-### Round 454 × 454
-
-![Round 454x454 Timer](screenshots/454x454_timer.png)
-![Round 454x454 Practice](screenshots/454x454_practice.png)
-
-*Width: 220px*
-
-### Round 416 × 416
-
-![Round 416x416 Timer](screenshots/416x416_timer.png)
-![Round 416x416 Practice](screenshots/416x416_practice.png)
-
-*Width: 220px*
-
-### Round 280 × 280
-
-![Round 280x280 Timer](screenshots/280x280_timer.png)
-![Round 280x280 Practice](screenshots/280x280_practice.png)
-
-*Width: 220px*
-
-### Round 260 × 260 — Vector Font (e.g., Forerunner 955)
-
-![Round 260x260 Vector Timer](screenshots/260x260_vector_timer.png)
-![Round 260x260 Vector Practice](screenshots/260x260_vector_practice.png)
-
-*Width: 220px*
-
-### Round 260 × 260 — Non-Vector Font / 7-Segment (e.g., Fenix 6)
-
-![Round 260x260 7-Segment Timer](screenshots/260x260_7seg_timer.png)
-![Round 260x260 7-Segment Practice](screenshots/260x260_7seg_practice.png)
-
-*Width: 220px*
-
-### Round 240 × 240
-
-![Round 240x240 Timer](screenshots/240x240_timer.png)
-![Round 240x240 Practice](screenshots/240x240_practice.png)
-
-*Width: 220px*
-
-### Semi-octagon 176 × 176
-
-![Semi-octagon 176x176 Timer](screenshots/176x176_timer.png)
-![Semi-octagon 176x176 Practice](screenshots/176x176_practice.png)
-
-*Width: 220px*
-
----
-
-## Changelog
-
-### Version 5.4
-- Added **7-segment display** for devices with no vector fonts (e.g., Fenix 6 timer view) — now shows numbers of arbitrary size.
-- Reworked and simplified **Pins menu** (now named **Markers**), explicitly set **Boat** and **Pin** location.
-
-### Version 5.3
-- Added support for **round 416×416** devices.
-- **96 models supported** from now on.
-
-### Version 5.2
-- **Pins locations** saved to `.fit` file for further analysis.
-
-### Version 5.0
-- Updated **gear database**.
-- Added **wing boards**, **wing foils**, **wind foils** to the database.
-- Better support for **Fenix 6** devices.
-
-### Version 4.6
-- Minor update for debug purposes.
-
-### Version 4.3
-- Added **jybe speed analysis** for the practice view.
-
-### Version 4.2
-- Timer crash fixed.
-
-### Version 4.1
-- Start session from **first GPS fix**.
-- Do not ask for session save if no session.
-- Improved tracker layout for **round 260×260** devices.
-- Better **tack detection**, filter out at low speeds.
-
-### Version 3.10
-- Added **"Back" button** to the exit screen — if you fall off unintentionally, you can continue your training now.
-- Rearranged elements on timer view for **round 260×260** screens to give more space for seconds.
-- Increased seconds font on devices with vector font support and round 260×260 screens (Forerunner 955 and similar).
-
-### Version 3.9
-- Fixed **Fenix 6** support broken by utilizing vector fonts for bigger seconds in timer. Reverted to raster fonts for devices with no support for vector fonts.
-
-### Version 3.8
-- Increased Timer seconds font size by request for **round 454×454** devices.
-
-### Version 3.7
-- Added **beeper and vibration** for start timer inspired by **Optimum Time Series** watches.
-- Added **Setup menu item** to turn on/off beeper and vibration.
-- Increased Seconds font size in Timer view for **round 260×260** devices by request (Forerunner 955 and similar).
-
-### Version 3.6
-- Uploaded old image by error in previous release.
-- Improved **GPS Status** sensor readings.
-
-### Version 3.5
-- Added **"Home" feature**. Now you can set home location in pins menu.
-- Once home is set, practice view shows the direction to home with the arrow and GPS Status view shows distance to home.
-
-### Version 3.4
-- Use **compass heading** if no GPS or not moving in GPS Status.
-- Fit heading to **0–359 range** (was 1–360).
-
-### Version 3.3
-- Improved **GPS Status** view — shows accuracy, speed, heading, and altitude.
-
-### Version 3.2
-- Show **session summary** on Enter key in tracker.
-- Added **100m best speed** calculations.
-- Minor code refactor.
-
-### Version 3.1
-- Added two options:
-  - **Start Zone size** in seconds (set values lower than default 30 seconds)
-  - **Jybe duration** in seconds (set your preferred value)
-- Both options used to calculate hints for start procedure.
-
-### Version 3.0
-- Updated **gear database**.
-
-### Version 2.10
-- Increase prediction accuracy.
-
-### Version 2.9
-- Adding more than one pin can now increase pin coordinates accuracy as it averages the coordinates.
-
-### Version 2.8
-- Fixed broken (in 2.7) **start line detection**.
-
-### Version 2.7
-- Some code cleanups and improved **geo calculations** for higher latitudes.
-
-### Version 2.6
-- Improved **start line detection**.
-
-### Version 2.4 / 2.3
-- Minor bugfixes.
-
-### Version 2.2
-- Testing **jybe suggestion vibration**.
-
-### Version 2.1
-- Added two options to save your impressions of the session — **wind match** and **ride comfort**.
-
-### Version 2.0
-- Added **windspeed** to gear menu.
-
-### Version 1.9
-- Improved **gear data rendering** for Connect IQ app.
-
-### Version 1.8
-- Added **gear database** under Gear menu item. Specify your board, sail, and fin — that info is stored in activity summary for review.
-
-### Version 1.7
-- Added **session summary** exit screen.
-
-### Version 1.6
-- Fixed possible race condition causing Array out bounds error and app crash.
-
-### Version 1.5
-- Added **save/discard activity** exit dialog.
-- Refactored drawing to reduce battery and CPU usage.
-- Improved timer accuracy by utilizing **milliseconds** instead of seconds.
-
-### Version 1.4
-- Added support for **Fenix 6 family** devices and fixed GPS quality indication.
-
-### Version 1.3
-- Added support for **round 240, 260, 280 × 240, 260, 280** screens.
-
-### Version 1.2
-- Added support for **round 454×454** screens.
-- Added modern API level support (**Fenix 8 AMOLED** and similar).
 
 ---
 
