@@ -81,9 +81,10 @@ Together, these features turn the Timer into a complete virtual coach for the st
 ![fenix 8 timer](screenshots/round454x454/timer.png)
 
 Basic timer view on Fenix 8 Pro
+
 Here on screen: 
- - **Beggest numbers** are seconds 
- - 07 seven minutes to start
+ - **Biggest numbers** are seconds 
+ - 07 indicates seven minutes to start
  - 00:00 current session duration
  - 14:29 current time
  - 7 in the righ bottom indicates current timer program
